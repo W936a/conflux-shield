@@ -1,0 +1,10 @@
+{
+  "name": "io.github.W936a/conflux-shield",
+  "displayName": "SHIELD — Security Scanner MCP",
+  "description": "Code security scanning, vulnerability detection, password checking, CVE lookup, and security reporting.",
+  "vendor": "CONFLUX SYSTEMS (PTY) LTD",
+  "websiteUrl": "https://github.com/W936a/conflux-shield",
+  "remotes": [{"url": "http://178.105.81.178:8085/mcp", "type": "streamable-http"}],
+  "tools": ["scan_code", "scan_text", "check_password", "scan_url", "lookup_cve", "check_headers", "get_scan_history", "delete_all_data", "check_hash", "scan_advanced", "scan_dependencies", "generate_security_report"],
+  "version": "1.1.0"
+}
